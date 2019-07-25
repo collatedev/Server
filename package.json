@@ -2,9 +2,9 @@
   "name": "@collate/server",
   "version": "1.0.0",
   "description": "Server that runs collate server",
-  "main": "./dist/index.js",
+  "main": "./dist/Server.js",
   "scripts": {
-    "start": "npm run lint && tsc -p . && node dist/index.js",
+    "start": "npm run lint && tsc -p . && node ./dist/Server.js 8080",
     "build": "npm run lint && tsc -p .",
     "test": "jest",
     "lint": "tslint src/**/*.ts && tslint tests/**/*.ts",

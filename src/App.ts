@@ -1,6 +1,6 @@
-import Express from "express";
+import * as Express from "express";
 import * as BodyParser from "body-parser";
-import morgan from "morgan";
+import * as morgan from "morgan";
 import { ILogger } from "@collate/logging";
 import IApp from "./IApp";
 import { IRouter } from "@collate/router";
