@@ -1,6 +1,6 @@
 {
   "name": "@collate/server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server that runs collate server",
   "main": "./dist/Server.js",
   "scripts": {
