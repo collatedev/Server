@@ -1,10 +1,10 @@
 {
-	"name": "Server",
+	"name": "server",
 	"version": "1.0.0",
 	"description": "Server that runs collate server",
 	"main": "./dist/index.js",
 	"scripts": {
-		"start": "npm run lint && tsc -p . && node bin/index.js",
+		"start": "npm run lint && tsc -p . && node dist/index.js",
 		"build": "npm run lint && tsc -p .",
 		"test": "jest",
 		"lint": "tslint src/**/*.ts && tslint tests/**/*.ts"
